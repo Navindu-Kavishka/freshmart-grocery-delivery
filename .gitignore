@@ -1,0 +1,14 @@
+# ---- Build output (Maven compiles into target/) ----
+target/
+out/
+
+# ---- IntelliJ IDEA personal settings ----
+.idea/
+*.iml
+
+# ---- Local SQLite database, created when the app runs ----
+data/*.db
+
+# ---- Operating-system clutter ----
+.DS_Store
+Thumbs.db
